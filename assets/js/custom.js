@@ -146,8 +146,7 @@
 	        })
 	        $(this).addClass('active');
 	      
-	        var target = this.hash,
-	        menu = target;
+
 	       	let target = $(this.hash);
 	        $('html, body').stop().animate({
 	            scrollTop: (target.offset().top) - 79
